@@ -42,9 +42,12 @@ All candidates were evaluated on the exact same 60/20/20 stratified split (`rand
 ---
 
 ## 5. Required Screenshots
-1. **Multi-Run Comparison View** (`Compare` view showing `random-forest-n100-depth8` leading on `val_average_precision`): *(Attach Screenshot 1)*
-2. **Selected Run Details & Dataset Inputs** (`random-forest-n100-depth8` overview showing parameters, metrics, tags, and `telco_train` / `telco_valid` datasets): *(Attach Screenshot 2)*
-3. **Model Registry & Alias** (`telco-churn` `Version 1` with `@candidate` alias): *(Attach Screenshot 3)*
+1. **Multi-Run Comparison View** (`Compare` view showing `random-forest-n100-depth8` leading on `val_average_precision`):
+   ![Multi-Run Comparison](screenshot/01_compare_runs.png)
+2. **Selected Run Details & Dataset Inputs** (`random-forest-n100-depth8` overview showing parameters, metrics, tags, and `telco_train` / `telco_valid` datasets): 
+   ![Selected Run Details](screenshot/02_selected_run_details.png)
+3. **Model Registry & Alias** (`telco-churn` `Version 1` with `@candidate` alias):  
+   ![Model Registry Alias](screenshot/03_model_registry_alias.png)
 
 ---
 
