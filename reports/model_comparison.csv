@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,Avg Precision,Fit Time (s)
+Baseline (Majority),0.7346,0.0,0.0,0.0,0.2654,0.015
+Logistic Regression,0.8041,0.6644,0.5294,0.5893,0.6475,0.028
+Decision Tree,0.7324,0.4958,0.4706,0.4829,0.3788,0.027
+Random Forest,0.78,0.606,0.4893,0.5414,0.5983,0.48
