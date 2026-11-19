@@ -15,10 +15,10 @@ All candidates were evaluated on the exact same 60/20/20 stratified split (`rand
 
 | Run Name | Model Type | Validation AP (Primary) | Validation Precision | Validation Recall | Validation F1 | Fit Time (s) |
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| `baseline-most-frequent` | `DummyClassifier` | 0.2654 | 0.0000 | 0.0000 | 0.0000 | ~0.003 |
-| `logistic-C1` | `LogisticRegression` | ~0.6480 | ~0.664 | ~0.529 | ~0.589 | ~0.022 |
-| `decision-tree-depth5` | `DecisionTreeClassifier` | ~0.6030 | ~0.63 | ~0.602 | ~0.616 | ~0.019 |
-| **`random-forest-n100-depth8`** | **`RandomForestClassifier`** | **0.6696** | **~0.648** | **~0.511** | **0.5710** | **~0.233** |
+| `baseline-most-frequent` | `DummyClassifier` | 0.2654 | 0.0000 | 0.0000 | 0.0000 | 0.003 |
+| `logistic-C1` | `LogisticRegression` | 0.6480 | 0.664 | 0.529 | 0.589 | 0.022 |
+| `decision-tree-depth5` | `DecisionTreeClassifier` | 0.6030 | 0.63 | 0.602 | 0.616 | 0.019 |
+| **`random-forest-n100-depth8`** | **`RandomForestClassifier`** | **0.6696** | **0.648** | **0.511** | **0.5710** | **0.233** |
 
 * **Selection Decision**: **`random-forest-n100-depth8`** was selected because it achieved the highest pre-agreed primary metric (**`val_average_precision = 0.6696`**) as well as the highest validation F1 (`0.5710`), outperforming both the majority-class baseline and linear/single-tree models without looking at the test set.
 
