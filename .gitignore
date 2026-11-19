@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+# MLflow local tracking store & artifacts
+mlflow.db
+mlflow.db-*
+mlartifacts/
+mlruns/
